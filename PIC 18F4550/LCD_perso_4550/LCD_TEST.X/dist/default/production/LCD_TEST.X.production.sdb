@@ -1,0 +1,225 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"628 C:\Users\TRABAJO\OneDrive\Escritorio\Distrital\6 Semestre\Tareas\Micros\Lab_9_LCD\LCD_perso_4550\LCD_TEST.X/LCD_16x2.h
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"676
+[v _LCD_Write LCD_Write `(v  1 e 1 0 ]
+"701
+[v _LCD_Text LCD_Text `(v  1 e 1 0 ]
+"711
+[v _LCD_CustomChar LCD_CustomChar `(v  1 e 1 0 ]
+"744
+[v _LCD_Busy LCD_Busy `(uc  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"34 C:\Users\TRABAJO\OneDrive\Escritorio\Distrital\6 Semestre\Tareas\Micros\Lab_9_LCD\LCD_perso_4550\LCD_TEST.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S24 . 1 `uc 1 bit0 1 0 :1:0 
+`uc 1 bit1 1 0 :1:1 
+`uc 1 bit2 1 0 :1:2 
+`uc 1 bit3 1 0 :1:3 
+`uc 1 bit4 1 0 :1:4 
+`uc 1 bit5 1 0 :1:5 
+`uc 1 bit6 1 0 :1:6 
+`uc 1 bit7 1 0 :1:7 
+]
+"295 C:\Users\TRABAJO\OneDrive\Escritorio\Distrital\6 Semestre\Tareas\Micros\Lab_9_LCD\LCD_perso_4550\LCD_TEST.X/LCD_16x2.h
+[u S33 LCDv8bit 1 `uc 1 all 1 0 `S24 1 . 1 0 ]
+[v _LCD_data LCD_data `S33  1 e 1 0 ]
+"296
+[v _LCD_busy_cnt LCD_busy_cnt `uc  1 e 1 0 ]
+"298
+[v __displaycontrol _displaycontrol `uc  1 e 1 0 ]
+"299
+[v __displaymode _displaymode `uc  1 e 1 0 ]
+[s S117 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"2736 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S214 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S223 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S226 . 1 `S117 1 . 1 0 `S214 1 . 1 0 `S223 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES226  1 e 1 @3971 ]
+[s S72 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+]
+"2998
+[s S80 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+]
+[u S88 . 1 `S72 1 . 1 0 `S80 1 . 1 0 ]
+[v _LATAbits LATAbits `VES88  1 e 1 @3977 ]
+[s S148 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"3290
+[s S157 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S166 . 1 `S148 1 . 1 0 `S157 1 . 1 0 ]
+[v _LATDbits LATDbits `VES166  1 e 1 @3980 ]
+[s S36 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3457
+[s S44 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[u S52 . 1 `S36 1 . 1 0 `S44 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES52  1 e 1 @3986 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S108 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4033
+[u S126 . 1 `S108 1 . 1 0 `S117 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES126  1 e 1 @3989 ]
+"17 C:\Users\TRABAJO\OneDrive\Escritorio\Distrital\6 Semestre\Tareas\Micros\Lab_9_LCD\LCD_perso_4550\LCD_TEST.X\main.c
+[v _msg1 msg1 `[11]uc  1 e 11 0 ]
+"18
+[v _msg2 msg2 `[12]uc  1 e 12 0 ]
+"19
+[v _msg3 msg3 `[9]uc  1 e 9 0 ]
+"20
+[v _msg4 msg4 `[5]uc  1 e 5 0 ]
+"28
+[v _fig fig `[8]uc  1 e 8 0 ]
+"29
+[v _C1 C1 `[7]uc  1 e 7 0 ]
+"30
+[v _C2 C2 `[7]uc  1 e 7 0 ]
+"31
+[v _C3 C3 `[7]uc  1 e 7 0 ]
+"34
+[v _main main `(v  1 e 1 0 ]
+{
+"54
+[v main@i i `uc  1 a 1 11 ]
+[v main@j j `uc  1 a 1 10 ]
+"55
+[v main@valid valid `uc  1 a 1 9 ]
+"116
+} 0
+"701 C:\Users\TRABAJO\OneDrive\Escritorio\Distrital\6 Semestre\Tareas\Micros\Lab_9_LCD\LCD_perso_4550\LCD_TEST.X/LCD_16x2.h
+[v _LCD_Text LCD_Text `(v  1 e 1 0 ]
+{
+"702
+[v LCD_Text@text text `*.35uc  1 a 2 4 ]
+"701
+[v LCD_Text@pt pt `*.35v  1 p 2 2 ]
+"707
+} 0
+"628
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"672
+} 0
+"711
+[v _LCD_CustomChar LCD_CustomChar `(v  1 e 1 0 ]
+{
+"713
+[v LCD_CustomChar@i i `uc  1 a 1 6 ]
+"712
+[v LCD_CustomChar@c c `*.39uc  1 a 2 4 ]
+"711
+[v LCD_CustomChar@pt pt `*.39v  1 p 2 2 ]
+"717
+} 0
+"676
+[v _LCD_Write LCD_Write `(v  1 e 1 0 ]
+{
+[v LCD_Write@value value `uc  1 a 1 wreg ]
+[v LCD_Write@value value `uc  1 a 1 wreg ]
+[v LCD_Write@mode mode `uc  1 p 1 0 ]
+[v LCD_Write@value value `uc  1 a 1 1 ]
+"697
+} 0
+"744
+[v _LCD_Busy LCD_Busy `(uc  1 e 1 0 ]
+{
+"778
+} 0
