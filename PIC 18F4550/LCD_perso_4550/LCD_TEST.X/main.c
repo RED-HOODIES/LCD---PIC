@@ -1,10 +1,10 @@
 /*
- * File:   main.c (PERSONALIZACIÓN CARACTER)
+ * File:   main.c (PERSONALIZACIÃ“N CARACTER)
  * 
  * Autores: Oscar David Poblador Parra      20211005116
  *          Juan David Bello Rodriguez      20211005028 
  *          Manuel Alejandro Guio Cardona   20211005061
- * Intritución: Universidad Distrital Francisco José de Caldas
+ * InstituciÃ³n: Universidad Distrital Francisco JosÃ© de Caldas
  */
 
 #include <xc.h>
@@ -15,7 +15,7 @@
 #include <stdio.h>
 char msg1[] = "Hola Mundo";
 char msg2[] = "Quien eres?";
-char msg3[] = {1, 2, '_', '(', 194, ')', '_', '/', 1}; //"¯\_(?)_/¯";
+char msg3[] = {1, 2, '_', '(', 194, ')', '_', '/', 1}; //"Â¯\_(?)_/Â¯";
 char msg4[] = {'(', 3, '_', 3, ')'};
 
 
